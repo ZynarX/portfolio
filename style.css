@@ -1,0 +1,156 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  width: 100%;
+  margin: 0px;
+}
+header{
+  background-image: linear-gradient(to bottom, black, white);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  height: 250px;
+  border-bottom: 1px solid black;
+}
+#PagesHolder{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  text-align: center;
+  top: 0;
+  padding: 10px;
+  height: 100%;
+}
+#PagesContainer{
+  text-align: center;
+  visibility: visible;
+  width: 90%;
+}
+#TogglePages{
+  height: 100%;
+  background-color: black;
+  border: none;
+  border-left: 1px solid white;
+  color: white;
+  font-size: 1.25rem;
+}
+#title{
+  color: white;
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+#quote{
+  color: black;
+  font-family: "Gupter", sans-serif;
+  font-size: 1.10rem;
+}
+main{
+  text-align: center;
+  padding: 25px;
+  height: 100%;
+}
+.Icon{
+  color: black;
+  font-size: 1.15rem;
+}
+#Greeting{
+  color: darkblue;
+}
+footer{
+  display: flex;
+  background-color: hsl(0, 0%, 12%);
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  height: 250px;
+}
+#FooterContainter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: navy;
+}
+a.Pages{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+a.Pages:hover{
+  color: hsl(0, 0%, 75%);
+}
+#Slogan{
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: "Anek Devanagari", sans-serif;
+  color: white;
+}
+#Copyright{
+  text-align: center;
+  font-size: 0.75rem;
+  color: white;
+}
+.ProjectLinks{
+  text-decoration: none;
+  color: hsl(0, 0%, 25%);
+}
+.contact-form-container {
+  max-width: 600px;
+  text-align: center;
+  margin: 32px auto;
+  padding: 32px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
