@@ -71,6 +71,7 @@ footer{
   align-items: center;
   padding: 100px;
   height: 250px;
+  border: none;
 }
 #FooterContainter{
   display: flex;
