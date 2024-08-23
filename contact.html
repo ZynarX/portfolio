@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZynarX Portfolio | Contact Me</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/jpeg" href="icon.jpeg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <div id="PagesHolder">
+    <div id="PagesContainer">
+       <a class="Pages" href="index.html">Home</a>
+       </footer>
+       <a class="Pages" href="projects.html">Projects</a>
+       <a class="Pages" href="about.html">About Me</a>
+    </div>
+
+    <button id="TogglePages"><i class="fa-solid fa-bars"></i></button>
+
+  </div>
+
+  <header id="Header">
+
+    <h1 id="title">Contact Me</h1>
+
+  </header>
+
+  <main>
+    <div class="contact-form-container">
+      <form id="contact-form" action="https://formspree.io/f/xpwalwln" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your message" rows="6" required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div id="FooterContainer">
+      <p id="Slogan"><b>ZynarX</b> Coding.</p>
+      <p id="Copyright">© ZynarX. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
