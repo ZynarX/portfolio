@@ -21,6 +21,7 @@ header{
   background-color: black;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   position: sticky;
   text-align: center;
   top: 0;
@@ -36,7 +37,6 @@ header{
   height: 100%;
   background-color: black;
   border: none;
-  border-left: 1px solid white;
   color: white;
   font-size: 1.25rem;
 }
