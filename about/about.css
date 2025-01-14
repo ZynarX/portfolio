@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+
+    font-family: "Roboto", 'Arial', 'sans-serif';
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: hsl(0, 0%, 0%);
+
+    height: 50px;
+}
+.logo{
+    width: 50px;
+    height: 95%;
+    cursor: pointer;
+
+    margin-right: auto;
+}
+.nav-bar{
+    width: 50px;
+    height: 95%;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.35rem;
+    color: white;
+
+    background-color: transparent;
+
+    border: none;
+
+    justify-self:self-end;
+}
+.nav-bar:hover{
+    color: hsl(0, 50%, 50%);
+
+    transition: color 0.75s;
+}
+.pages-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    background-color: black;
+    color: hsl(0, 100%, 95%);
+
+    position: absolute;
+    z-index: 2;
+
+    padding: 15px;
+
+    height: 100vh;
+    width: 20vw;
+}
+.exit-nav-bar{
+    margin: 5px;
+    margin-left: auto;
+    cursor: pointer;
+}
+.exit-nav-bar:hover{
+    color: hsl(0, 50%, 50%);
+
+    transition: all 0.75s;
+}
+.page{
+    text-decoration: none;
+    color: hsl(0, 100%, 97.5%);
+    font-size: 1rem;
+
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+}
+.page:hover{
+    color: hsl(0, 0%, 85%);
+    font-size: 1.1rem;
+
+    transition: all 0.5s;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(0, 0%, 6.25%);
+    color: hsl(0, 100%, 95%);
+
+    height: auto;
+}
+.name{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.quote{
+    font-weight: 100;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    
+    background-color: hsl(0, 0%, 07.5%);
+    color: white;
+
+    padding: 15px;
+
+    min-height: 50vh;
+    height: auto;
+}
+.greeting{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: lightblue;
+
+    transition: all 2s;
+}
+.about-information{
+    font-weight: 300;
+    width: 90vw;
+}
+.about-history{
+    font-weight: 300;
+    width: 90vw;
+}
+.about-plans{
+    font-weight: 300;
+    width: 90vw;
+}
+
+.full-stop{
+    color: hsl(0, 100%, 50%);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    font-size: 0.65rem;
+
+    background-color: hsl(0, 0%, 05%);
+    color: hsl(0, 100%, 95%);
+
+    height: 275px;
+}
+.slogan{
+    font-family: "Fredoka", "Roboto", "Arial", "sans-serif";
+    font-size: 1.25rem;
+}
+
+.hidden{
+    opacity: 0;
+    transform: translateY(50%);
+
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    transform: translateY(0%);
+    
+    transition: all 1s;
+}
+
+.invisible{
+    transform: translateX(-100%);
+
+    transition: all 1s;
+}
+.visible{
+    transform: translateX(0%);
+
+    transition: all 1s;
+}
